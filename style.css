@@ -1,0 +1,128 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+.logo-head{
+    rotate: 45deg;
+}
+
+.sectionhead{
+    background-image: url(./images/background.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+} 
+
+
+
+
+
+
+.launch,.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.banner {
+    background-color: #fdf8f4;
+    padding: 20px 0;
+    text-align: center; 
+}
+
+.banner img{
+    height: auto;
+    width: 50%;
+    padding: 1rem 0;
+    
+}
+
+.sectionabout .aboutabout{
+    font-weight: 100;
+}
+
+.sectionabout .aboutname{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #ef7e28;
+}
+
+.calltoaction{
+  background-color: #fdf8f4; 
+  padding: 4rem 0; 
+}
+
+.calltoaction .callhead{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #ef7e28;
+
+}
+
+#updates .callhead{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #ef7e28;
+}
+
+.list {
+    position: relative;
+  }
+  .list h2 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .list ul {
+    position: relative;
+  }
+  .list ul li {
+    position: relative;
+    left: 0;
+    color: black;
+    list-style: none;
+    margin: 4px 0;
+    border-left: 2px solid #ef7e28;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .list ul li:hover {
+    left: 10px;
+  }
+  .list ul li span {
+    position: relative;
+    padding: 8px;
+    padding-left: 12px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .list ul li:hover span {
+    color: #111;
+  }
+  .list ul li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ef7e28;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+  }
+  .list ul li:hover:before {
+    transform: scaleX(1);
+  }
+
+#footer{
+    background-color: black;
+    color: white;
+    padding: 4rem;
+
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
